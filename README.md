@@ -1,11 +1,11 @@
 # WikiJS on AWS via Terraform
 
-This module will allow you to publish a (wikijs)[https://docs.requarks.io] on your own ECS infrastructure. 
+This module will allow you to publish a [wikijs](https://docs.requarks.io])on your own ECS infrastructure. 
 We support custom environment variables and you should only need to point this to a cluster and everything will
 light up.
 
 We will terraform a load balancer, target group, and everything in between based on the documentation provided in
-our `ecs-https-task` module located (here)[https://github.com/7Factor/terraform-ecs-http-task].
+our `ecs-https-task` module located [here](https://github.com/7Factor/terraform-ecs-http-task).
 
 Most of what you need to know is provided in an example tfvars file, and feel free to peruse the `variables.tf` for 
 documentation on the required variables to run the terraform.
