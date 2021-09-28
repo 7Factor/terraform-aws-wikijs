@@ -33,7 +33,7 @@ module "wiki_js" {
     "name": "${var.app_name}",
     "portMappings": [
       {
-        "containerPort": ${var.app_port},
+        "containerPort": ${var.wikijs_app_port},
         "hostPort": 0
       }
     ],
