@@ -27,8 +27,8 @@ variable "desired_task_count" {
   description = "Defaults to two."
 }
 
-variable "lb_security_group_id" {
-  description = "This is the SG you want to assign to the load balancer. This should open 443 and 80."
+variable "cluster_security_group_id" {
+  description = "This is the SG you want to use to allow the load balancer access to ECS."
 }
 
 variable "lb_public_subnets" {

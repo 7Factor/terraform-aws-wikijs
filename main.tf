@@ -21,7 +21,7 @@ module "wiki_js" {
   health_check_timeout = 15
   lb_cert_arn          = var.lb_cert_arn
   lb_public_subnets    = var.lb_public_subnets
-  cluster_lb_sg_id     = var.lb_security_group_id
+  cluster_lb_sg_id     = var.cluster_security_group_id
   desired_task_count   = var.desired_task_count
 
   # Let's start with a hard coded container definition. A zero as host port means
