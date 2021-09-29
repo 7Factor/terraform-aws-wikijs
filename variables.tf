@@ -13,7 +13,6 @@ variable "app_name" {
 }
 
 variable "wikijs_image_tag" {
-  default     = "latest"
   description = "The tag to install. Defaults to latest, but you should probably tie this down."
 }
 
