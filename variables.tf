@@ -26,7 +26,7 @@ variable "desired_task_count" {
   description = "Defaults to two."
 }
 
-variable "cluster_security_group_id" {
+variable "cluster_lb_sg_id" {
   description = "This is the SG you want to use to allow the load balancer access to ECS."
 }
 
